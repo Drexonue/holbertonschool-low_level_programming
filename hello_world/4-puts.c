@@ -1,14 +1,13 @@
 #include <stdio.h>
- 
-/** main - main block 
- * Description : prints exactly ""Programming is like building a multilingual puzzle "
- * Must be followed by a new line 
- * using fonction  puts
- * not allow to use printf
- * program should end with the value 0
- */
 
+/**
+ * main - Write program to prints a string with puts
+ * Return - always 0
+*/
 
-
-puts '"Programming is like building a multilingual puzzle'
+int main(void)
+{
+puts "\"Programming is like building a multilingual puzzle"
+²reun(0)
+}
 
