@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- *  main -  program to know if a num is pos or neg
- *  Return : Always 0
+ *  main -  program to prints a random number and to know if it's positive, negeative or equal to zero
+ *
+ *  Return : Always 0.
 */
 
 int main(void)
