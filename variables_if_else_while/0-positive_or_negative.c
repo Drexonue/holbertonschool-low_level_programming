@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  main -  program to prints a random number and to know if it's positive, negeative or equal to zero
+ *  main - Entry main
  *
- *  Return : Always 0.
+ *  Return : Always 0 (success) .
 */
 
 int main(void)
@@ -25,6 +25,7 @@ int main(void)
 		printf("%d is negative\n", n); }
 		else
 		{
+		if (n == 0)
 		printf("%d is zero\n", n);
 		}}
 		return (0);
