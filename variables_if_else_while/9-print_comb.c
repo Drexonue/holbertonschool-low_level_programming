@@ -2,7 +2,7 @@
 /**
  * main - entry main
  *
- * Return : 0
+ * Return : Always 0
 */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	for (num = '0'; num < 10; num++)
 
 	{
-		putchar(num);
+		putchar(num + '0');
 		if (num < 9)
 		{
 			putchar(',');
