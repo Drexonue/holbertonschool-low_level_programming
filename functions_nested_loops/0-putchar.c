@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry main
  *
@@ -9,14 +9,15 @@
 int main(void)
 
 {
-	printf("_");
-	printf("p");
-	printf("u");
-	printf("t");
-	printf("c");
-	printf("h");
-	printf("a");
-	printf("r\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
