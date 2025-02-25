@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry main
+ * main - printing _putchar with only using the function _putchar
  *
- * return: Always 0
-*/
+ * Return: Always 0
+ */
+
 
 int main(void)
 
